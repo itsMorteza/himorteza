@@ -1,0 +1,25 @@
+{
+  "short_name": "Morty is Here",
+  "name": "This is how i see U",
+  "icons": [
+    {
+      "src": "mplogo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "mplogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "mplogo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

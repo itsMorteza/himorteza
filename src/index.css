@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.main_pde_new{
+  clip-path: polygon(20% 0, 0 0, 20% 40%,
+   0 100%, 20% 100%, 50% 40%, 80% 100%, 100% 100%, 
+   80% 40%, 100% 0, 80% 0, 50% 25%);
+   background-color: #059600;
+   width: 60%;
+   opacity: 40%;
+   height: 90%;
+   z-index: 2;
+   border-radius: 1rem;
+   position: absolute;
+   bottom: 0%;
+   left: 0;
+}
+.nav_shape{
+  border-radius: 81% 19% 72% 28% / 15% 68% 32% 85%  ;
+}
+.navbut{
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color:  rgba(255,255,255,0.7);
+  font-size: 1.2rem;  
+
+}
+.navbut:hover{
+  background: rgba(0,0,0,0.3);
+}
+.navbut.active{
+  background:  rgba(255, 0, 0, 0.7);
+  color: rgba(255,255,255,0.7);
+}
+.logopar{
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.logopar:before,
+.logopar:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.logopar:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+.logopar:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}
