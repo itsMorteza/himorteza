@@ -1,11 +1,11 @@
 import {GrLinkedin} from 'react-icons/gr'
-import {FaTwitterSquare , FaGithubSquare} from 'react-icons/fa'
+import {FaTwitterSquare , FaGithubSquare ,FaMoon,FaSun, FaHome,FaInfo, FaProjectDiagram} from 'react-icons/fa'
 import {SiCplusplus,SiPytorch ,   SiUnrealengine} from 'react-icons/si'
-
 const Content = {
 	logo: {
         logo: 'MMP',
         img: require("../assets/mplogo-white.png"),
+        imgdark: require("../assets/mplogo.png"),
      },
     nav: {
 	  links: [
@@ -17,7 +17,7 @@ const Content = {
 	},
 
 	home: {
-   	text: ["Hello From the other side! ", " I'm  Morteza Mousa Pasandi.", 'Working on ', " Computer Engineer based on Ottawa, On. Waiting for Death."],
+   	text: ["Hello From the other side! ", " I'm  Morteza Mousa Pasandi.", 'Working on '  ],
 	  typical: [
 		'Game Developement! ',
 		'FrontEnd Developement. ',
@@ -48,19 +48,25 @@ const Content = {
      ],
  
     },
-
+  Nav:{
+    Menus:[
+      { name: "Home",link:'logo', icon: <FaHome/> },
+      { name: "About",link:'about', icon: <FaInfo/> },
+      { name: "Projects",link:'projects', icon: <FaProjectDiagram/>},],
+    lighticon:[  <FaSun/>  ,   <FaMoon/>  ],
+  },
 	about: {
         name: 'About Me',
         question: " If you knew you were going to die tomorrow, how would you spend today? ",
         img:require("../assets/img2.png"),
          
-        para:[ " Morteza Mousa Pasandi received his BSc in  Computer Engineering from Isfahan University of Technology, Iran, in 2020 and is currently pursuing graduate studies at the University of Ottawa, working on computer vision, image processing and game development. interested in deep neural networks and their significant capacity in generalization. "],
+        para:[ " Morteza Mousa Pasandi received his BSc in  Computer Engineering from Isfahan University of Technology, Iran, in 2020 and is currently pursuing graduate studies at the University of Ottawa, working on computer vision, image processing and game development. interested in deep neural networks and their significant capacity in generalization. Based on Ottawa.ON "],
    
         btn: {
           text:['EXP','Projects', 'Learning', 'studied','Enjoy'],
           subtext:['+3 years', '+20', 'violin and programming', 'computer engineering', 'running and writing'], 
         },
-        Skills: [
+        Skills: [ 
           {
             name:'C++',
             logo:<SiCplusplus/>,

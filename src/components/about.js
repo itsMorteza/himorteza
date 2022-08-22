@@ -6,11 +6,11 @@ function About() {
   const Skills = Content.about.Skills;
 
   return (
-        <div className='min-h-screen bg-[#03200c] flex  flex-col md:flex-row justify-evenly items-center font-dosis bg-soft  text-white' id='about'>
+        <div className='min-h-screen font-[Garamond] bg-[#deebca] dark:bg-[#020f06]  flex  flex-col md:flex-row justify-evenly items-center  bg-soft  text-black dark:text-white' id='about'>
             <div className=' w-5/6 lg:w-2/5 mt-10  text-justify'>
-                <h1 className='text-4xl   font-bold'>{Content.about.name}</h1>
+                <h1 className='text-5xl   first-letter:text-8xl  font-bold'>{Content.about.name}</h1>
                 <h2 className=' mt-3 text-md md:text-3xl font-bold'>{Content.about.question}</h2>
-                <p className='mt-5  text-sm md:text-2xl  first-letter:text-7xl md:first-letter:text-2xl first-letter:font-bold 
+                <p className='mt-5  text-sm md:text-2xl  md:first-letter:text-7xl first-letter:text-2xl first-letter:font-bold 
                 first-letter:mr-3 first-letter:float-left columns-xs gap-x-12'>{Content.about.para}.</p>
                 <h2 className=' mt-3 text-md md:text-2xl font-bold'>Death Notes</h2>
                 <div className='   flex flex-row px-6 py-4 whitespace-no-wrap border-b border-gray-600 text-xs md:text-md lg:text-lg justify-evenly '>

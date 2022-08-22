@@ -8,9 +8,9 @@ const Home = () => {
     const animated = useStartAnimation()
 
     return (
-        <div className='min-h-screen flex justify-center items-center bg-[#03200c]' id='home'>
-            <div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse justify-between items-center'> 
-                <div className='text-white z-10 font-dosis text-center md:text-left'>
+        <div className='min-h-screen flex   justify-center items-center bg-[#deebca] dark:bg-[#020f06] ' id='home'>
+            <div className='w-2/3   mx-auto flex flex-col font-[Garamond]  md:flex-row-reverse justify-between items-center'> 
+                <div className='text-black dark:text-white z-10   text-center md:text-left'>
                     <h3 className="transform opacity-60 translate-y-50 transition duration-2000 
                     text-xl md:text-2xl lg:text-3xl font-bold">{Content.home.text[0]}</h3>
                     <h2 className={`${animated? '': 'translate-y-50 opacity-0'} 
@@ -18,7 +18,7 @@ const Home = () => {
                     text-3xl md:text-4xl lg:text-6xl font-bold`}> <br />
                         {Content.home.text[1]}
                     </h2>
-                    <h1 className={`${animated? '': 'translate-y-30 opacity-0'} flex flex-row transform transition duration-2000 text-sm md:text-4xl text-gray-300 md:mt-5`}>
+                    <h1 className={`${animated? '': 'translate-y-30 opacity-0'} flex flex-row transform transition duration-2000 text-sm md:text-4xl text-gray-900 dark:text-gray-300 md:mt-5`}>
                         {Content.home.text[2]} <span className=" w-2"></span>
                     <Typewriter  
                         options={{
@@ -30,11 +30,11 @@ const Home = () => {
                     </h1>
 
                     <a href={Content.home.btns.Links[0]}>
-                            <button className='bg-[#22C55E] border-2 px-10 py-3 text-xl mt-10 uppercase rounded-lg mx-3.5
+                            <button className='bg-[#74f1a2] dark:bg-[#008d34] border-2 px-10 py-3 text-xl mt-10 uppercase rounded-lg mx-3.5
                             animate-float hover:bg-emerald-400'>{Content.home.btns.Text[0]}</button>
                     </a>
                     <a   href={Content.home.btns.Links[1]} >
-                            <button className='bg-[#22C55E] border-2 px-10 py-3 text-xl mt-10 uppercase rounded-lg   mx-3.5
+                            <button className='bg-[#51f88e] dark:bg-[#008d34] border-2 px-10 py-3 text-xl mt-10 uppercase rounded-lg   mx-3.5
                             animate-float hover:bg-transparent hover:border-rose-800'>{Content.home.btns.Text[1]}</button>  
                     </a>
                 </div>
