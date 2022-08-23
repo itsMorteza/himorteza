@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/himorteza/static/css/main.d7e75530.css",
-    "main.js": "/himorteza/static/js/main.8cffc94c.js",
+    "main.css": "/himorteza/static/css/main.2861c7d5.css",
+    "main.js": "/himorteza/static/js/main.8132fa49.js",
     "static/media/img2.png": "/himorteza/static/media/img2.2ccf2601fee14cb7c774.png",
     "static/media/cv.pdf": "/himorteza/static/media/cv.450e61dc25fd0a470389.pdf",
     "static/media/mplogo-white.png": "/himorteza/static/media/mplogo-white.e030d0f04f9257e9632b.png",
     "static/media/mplogo.png": "/himorteza/static/media/mplogo.371ace8be525746f316b.png",
     "index.html": "/himorteza/index.html",
-    "main.d7e75530.css.map": "/himorteza/static/css/main.d7e75530.css.map",
-    "main.8cffc94c.js.map": "/himorteza/static/js/main.8cffc94c.js.map"
+    "main.2861c7d5.css.map": "/himorteza/static/css/main.2861c7d5.css.map",
+    "main.8132fa49.js.map": "/himorteza/static/js/main.8132fa49.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7e75530.css",
-    "static/js/main.8cffc94c.js"
+    "static/css/main.2861c7d5.css",
+    "static/js/main.8132fa49.js"
   ]
 }
