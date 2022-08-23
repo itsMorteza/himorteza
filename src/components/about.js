@@ -18,8 +18,8 @@ function About() {
 
                 </div>
             </div> 
-            <img class="block  w-1/3 align-middle   aspect-square rounded-xl brightness-50 
-            hue-rotate-90 hover:brightness-100 hover:hue-rotate-0 transition duration-2000  hover:scale-105  " src={Content.about.img}  alt="me2"></img>
+            <img class="block  w-1/3 align-middle   rounded-xl brightness-50 
+            hue-rotate-45 hover:brightness-100 hover:hue-rotate-0 transition duration-2000  hover:scale-105  " src={Content.about.img}  alt="me2"></img>
         </div>
   )
 }

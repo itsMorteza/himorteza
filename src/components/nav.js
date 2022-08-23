@@ -8,8 +8,8 @@ function Nav() {
 	    const [activeTheme, setTheme] = useThemeSwitcher();  
       const [active, setActive] = useState(0);
       return (
-        <div className="nav_shape font-[Garamond] justify-items-center
-        bottom-12 w-max  fixed justify-center block  -translate-x-1/2 items-center   left-2/4 px-3 py-4" style={{backgroundColor: 'rgba(0,0,0,0.3)'}}>
+        <div className="  font-[Garamond] justify-items-center
+        bottom-12 w-max  fixed justify-center block  -translate-x-1/2 items-center   left-2/4 px-3 py-4"  >
  <ul className="flex relative">
 
             {Content.Nav.Menus.map((menu, i) => (
