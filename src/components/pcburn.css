@@ -141,7 +141,6 @@ body{background: transparent;}
     display: inline-block;
     border: 0px solid rgb(34 197 94);
     border-radius: 100%;
-    float: left;
     background: rgb(34 197 94);
     transform: translate(-80%, 0%);
     animation: changeto-lower 3s infinite linear;
@@ -155,7 +154,6 @@ body{background: transparent;}
     display: inline-block;
     border: 0px solid rgb(34 197 94);
     border-radius: 100%;
-    float: left;
     background: rgb(34 197 94);
     transform: translate(-80%, 0%);
     animation: changeto-greater 3s infinite linear;
